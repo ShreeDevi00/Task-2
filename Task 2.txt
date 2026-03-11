@@ -1,0 +1,66 @@
+1.Differnce between block level and inline elements in html.
+ANSWER: Block level elements
+        *start on a new line
+		*take full width of the page
+		*can contain inlineand other block element
+		*for example:<div>,<p>,<h>.
+	* inline elements
+	*do not start on anew line
+	*take only requried width
+	*usually containstex or other inline elements
+	*For example:<span>,<a>,<strong>
+	
+	2.Here is a simple sample HTML page using the basic tags:
+
+Headings <h1> – <h6>
+
+Paragraph <p>
+
+Division <div> (block element)
+
+Inline <span>
+
+ Theme: My Personal Profile Page
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Profile Page</title>
+</head>
+
+<body>
+
+<!-- Main Heading -->
+<h1>Welcome to My Profile</h1>
+
+<!-- About Section -->
+<div>
+    <h2>About Me</h2>
+    <p>Hello! My name is <span>Sree Devi</span>. I am learning <span>HTML</span> and web development.</p>
+</div>
+
+<!-- Education Section -->
+<div>
+    <h3>Education</h3>
+    <p>I am currently studying web development basics.</p>
+</div>
+
+<!-- Skills Section -->
+<div>
+    <h4>My Skills</h4>
+    <p>I know <span>HTML basics</span> and I am improving my coding skills.</p>
+</div>
+
+<!-- Hobbies Section -->
+<div>
+    <h5>My Hobbies</h5>
+    <p>I enjoy learning new technologies and practicing coding.</p>
+</div>
+
+<!-- Footer -->
+<div>
+    <h6>Thank You for Visiting</h6>
+    <p>This is my first sample HTML page.</p>
+</div>
+
+</body>
+</html>
